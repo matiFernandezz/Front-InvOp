@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+nav{
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    height: 100px;
+    background-color: gray;
+    list-style: none;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 20px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu li a:hover{
+    color: gray;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.caratula{
+    display: flex;
+    flex-direction: column;
+    justify-self: auto;
+}
+.caratula h1{
+    text-align: center;
+    padding: 50px
+}
+.caratula h4{
+    margin: 15px;
+    padding-left: 20px;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.caratula ul{
+    list-style-type: disc; /* Puntos negros */
+    padding-left: 70px;
+    align-items: center;
+    
+}
